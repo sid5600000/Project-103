@@ -1,0 +1,29 @@
+#heading{
+    font-weight: bold;
+    font-size:40px;
+    font-family: fantasy;
+    background-color: white;
+    color: black;  
+}
+
+body{
+    text-align: center;
+    background-color: cyan;
+}
+
+.family_members{
+    color:black;
+    font-weight:800;
+    font-size: 25px;
+    font-variant:small-caps;
+}
+
+#camera,#photo_captured{
+    border: 4px;
+    border-style: double;
+    border-color: black;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    align-content: center;
+}

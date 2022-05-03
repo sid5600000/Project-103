@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Project 103</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+      <div id="container">
+        <center>
+            <hr>
+            <h1 id="heading">Face regognition web app</h1>
+            <br>
+            <br>
+            <hr>
+            <h3 class="family_members">Mother</h3>
+
+            <hr>
+            <h3 class="family_members">Father</h3>
+
+            <hr>
+            <h3 class="family_members">Sister</h3>
+            <hr>
+            <h3 class="family_members">Me</h3>
+
+
+            <hr>
+
+            <label>Webcam View - </label>
+
+            <br><br>
+
+            <div id="camera"></div>
+            <br>
+            <br>
+
+            <hr>
+
+            <label>Photo captured - </label>
+            <br>
+
+            <div id="photo_captured"></div>
+
+            <br>
+            <br>
+
+            <button id="capture_photo" type="button" class="btn btn-primary">Capture Photo</button>
+            <br>
+            <br>
+            <button id="identify_object" type="button" class="btn btn-success">Identify object</button>
+            <br>
+            <br>
+
+            <hr>
+            
+
+            <p style="font-size: 18px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 900;" >Object : <span id="object_name"></span> </p>
+            <p style="font-size: 18px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 900;">Accuracy : <span id="accuracy"></span> </p>
+
+            <hr>
+        </center>
+
+    </div>
+
+  </body>
+
+</html>
